@@ -58,8 +58,13 @@ public class BasicCalculatorTest {
 				System.out.println(firstNumber);
 				secondNumber = -10.0 + (30.0 + 10.0) * random.nextDouble();
 				System.out.println(secondNumber);
-				result = firstNumber / secondNumber;
-				assertEquals(basicCal.division(firstNumber, secondNumber), result, 0);
+				if (secondNumber == 0) {
+					System.out.println("You can not divide by zero");
+				}
+				else {
+					result = firstNumber / secondNumber;
+				    assertEquals(basicCal.division(firstNumber, secondNumber), result, 0);
+				}
 			}
 	}
 }

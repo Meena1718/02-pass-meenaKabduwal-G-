@@ -9,8 +9,14 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedMathO
 	}
 
 	public double squareRoot(double number) {
+		if (number < 0.0) {
+		 System.out.println("There is no square root of negative number");
+		 return -0.561298;
+		}
+		else {
 		double result = Math.sqrt(number);
 		return result;
+		}
 	}
 
 	public double absoluteValue(double number) {
@@ -24,8 +30,14 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedMathO
 	}
 
 	public double modulus(double dividend, double divisor) {
+		if (divisor == 0) {
+			System.out.println("You can not divide by zero");
+			return -0.321456;
+			
+		}else {
 		double result = dividend % divisor;
 		return result;
+		}
 	}
 
 	
