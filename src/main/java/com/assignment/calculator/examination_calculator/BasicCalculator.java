@@ -8,7 +8,7 @@ public class BasicCalculator implements BasicMathOperationsInterface {
 		return result;
 	}
 
-	public double subtractiont(double firstNumber, double secondNumber) {
+	public double subtraction(double firstNumber, double secondNumber) {
 		double result = firstNumber - secondNumber;
 		return result;
     }

@@ -2,7 +2,7 @@ package com.assignment.calculator.examination_calculator;
 
 public class AdvancedCalculator extends BasicCalculator implements AdvancedMathOperationsInterface{
 
-	
+
 	public double square(double number) {
 		double result = number * number;
 		return result;
@@ -18,7 +18,7 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedMathO
 		return result;
 	}
 
-	public double raisedToThePowerof(double base, double exponent) {
+	public double raisedToThePowerOf(double base, double exponent) {
 		double result = Math.pow (base, exponent);
 		return result;
 	}
@@ -27,5 +27,8 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedMathO
 		double result = dividend % divisor;
 		return result;
 	}
+
+	
+	
 
 }
