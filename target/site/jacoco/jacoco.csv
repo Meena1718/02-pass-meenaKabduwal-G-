@@ -1,0 +1,4 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+assignment-calculator,com.assignment.calculator.examination_calculator,BasicCalculator,5,31,1,1,2,10,1,5,0,5
+assignment-calculator,com.assignment.calculator.examination_calculator,Main,63,0,0,0,13,0,2,0,2,0
+assignment-calculator,com.assignment.calculator.examination_calculator,AdvancedCalculator,10,39,2,2,4,13,2,6,0,6
